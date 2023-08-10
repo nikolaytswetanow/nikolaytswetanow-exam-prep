@@ -38,6 +38,7 @@ jobs:
 
   ui_tests:
     runs-on: ubuntu-latest
+    needs: deploy
 
     strategy:
       matrix:
